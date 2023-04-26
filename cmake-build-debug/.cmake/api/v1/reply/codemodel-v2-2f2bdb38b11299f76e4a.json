@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arrays_in_c",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "eje1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje1-Debug-83525598437c709afa2a.json",
+					"name" : "eje1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eje2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje2-Debug-8fbc936bcf7865105b22.json",
+					"name" : "eje2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eje3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje3-Debug-001f61fee2619e5fcc54.json",
+					"name" : "eje3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eje4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje4-Debug-08a3a4ba85bb34ef9408.json",
+					"name" : "eje4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eje5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje5-Debug-863dc3e3ae6a39c184dd.json",
+					"name" : "eje5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "eje6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje6-Debug-96b50b40758dc73cd13d.json",
+					"name" : "eje6",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug",
+		"source" : "/Users/paulcontreras/Documents/GitHub/arrays_in_c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

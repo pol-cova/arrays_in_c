@@ -1,0 +1,294 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: arrays_in_c
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target eje1
+
+
+#############################################
+# Order-only phony target for eje1
+
+build cmake_object_order_depends_target_eje1: phony || CMakeFiles/eje1.dir
+
+build CMakeFiles/eje1.dir/exersice_1.c.o: C_COMPILER__eje1_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/exersice_1.c || cmake_object_order_depends_target_eje1
+  DEP_FILE = CMakeFiles/eje1.dir/exersice_1.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje1.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje1
+
+
+#############################################
+# Link the executable eje1
+
+build eje1: C_EXECUTABLE_LINKER__eje1_Debug CMakeFiles/eje1.dir/exersice_1.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje1
+  TARGET_PDB = eje1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eje2
+
+
+#############################################
+# Order-only phony target for eje2
+
+build cmake_object_order_depends_target_eje2: phony || CMakeFiles/eje2.dir
+
+build CMakeFiles/eje2.dir/exersice_2.c.o: C_COMPILER__eje2_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/exersice_2.c || cmake_object_order_depends_target_eje2
+  DEP_FILE = CMakeFiles/eje2.dir/exersice_2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje2.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje2
+
+
+#############################################
+# Link the executable eje2
+
+build eje2: C_EXECUTABLE_LINKER__eje2_Debug CMakeFiles/eje2.dir/exersice_2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje2
+  TARGET_PDB = eje2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eje3
+
+
+#############################################
+# Order-only phony target for eje3
+
+build cmake_object_order_depends_target_eje3: phony || CMakeFiles/eje3.dir
+
+build CMakeFiles/eje3.dir/exersice_3.c.o: C_COMPILER__eje3_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/exersice_3.c || cmake_object_order_depends_target_eje3
+  DEP_FILE = CMakeFiles/eje3.dir/exersice_3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje3.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje3
+
+
+#############################################
+# Link the executable eje3
+
+build eje3: C_EXECUTABLE_LINKER__eje3_Debug CMakeFiles/eje3.dir/exersice_3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje3
+  TARGET_PDB = eje3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eje4
+
+
+#############################################
+# Order-only phony target for eje4
+
+build cmake_object_order_depends_target_eje4: phony || CMakeFiles/eje4.dir
+
+build CMakeFiles/eje4.dir/exersice_4.c.o: C_COMPILER__eje4_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/exersice_4.c || cmake_object_order_depends_target_eje4
+  DEP_FILE = CMakeFiles/eje4.dir/exersice_4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje4.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje4
+
+
+#############################################
+# Link the executable eje4
+
+build eje4: C_EXECUTABLE_LINKER__eje4_Debug CMakeFiles/eje4.dir/exersice_4.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje4
+  TARGET_PDB = eje4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eje5
+
+
+#############################################
+# Order-only phony target for eje5
+
+build cmake_object_order_depends_target_eje5: phony || CMakeFiles/eje5.dir
+
+build CMakeFiles/eje5.dir/exersice_5.c.o: C_COMPILER__eje5_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/exersice_5.c || cmake_object_order_depends_target_eje5
+  DEP_FILE = CMakeFiles/eje5.dir/exersice_5.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje5.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje5
+
+
+#############################################
+# Link the executable eje5
+
+build eje5: C_EXECUTABLE_LINKER__eje5_Debug CMakeFiles/eje5.dir/exersice_5.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje5
+  TARGET_PDB = eje5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eje6
+
+
+#############################################
+# Order-only phony target for eje6
+
+build cmake_object_order_depends_target_eje6: phony || CMakeFiles/eje6.dir
+
+build CMakeFiles/eje6.dir/exersice_6.c.o: C_COMPILER__eje6_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/exersice_6.c || cmake_object_order_depends_target_eje6
+  DEP_FILE = CMakeFiles/eje6.dir/exersice_6.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje6.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje6
+
+
+#############################################
+# Link the executable eje6
+
+build eje6: C_EXECUTABLE_LINKER__eje6_Debug CMakeFiles/eje6.dir/exersice_6.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje6
+  TARGET_PDB = eje6.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/paulcontreras/Documents/GitHub/arrays_in_c -B/Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug
+
+build all: phony eje1 eje2 eje3 eje4 eje5 eje6
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
