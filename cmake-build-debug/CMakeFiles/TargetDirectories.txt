@@ -6,5 +6,9 @@
 /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/eje6.dir
 /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/ejeb1.dir
 /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/ejeb2.dir
+/Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/ejeb3.dir
+/Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/ejeb4.dir
+/Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/ejeb5.dir
+/Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/ejeb6.dir
 /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

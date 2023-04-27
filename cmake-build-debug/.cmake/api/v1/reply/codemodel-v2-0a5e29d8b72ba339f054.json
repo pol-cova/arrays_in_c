@@ -22,7 +22,11 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -44,7 +48,11 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -104,6 +112,34 @@
 					"id" : "ejeb2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ejeb2-Debug-467c044dbd0bd3da16dd.json",
 					"name" : "ejeb2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejeb3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejeb3-Debug-b874b5e2eb897486389f.json",
+					"name" : "ejeb3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejeb4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejeb4-Debug-de55c55cd54512ed01c1.json",
+					"name" : "ejeb4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejeb5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejeb5-Debug-89eeb51e15eee310af57.json",
+					"name" : "ejeb5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejeb6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejeb6-Debug-b4517ef9646608c6754f.json",
+					"name" : "ejeb6",
 					"projectIndex" : 0
 				}
 			]

@@ -285,6 +285,130 @@ build ejeb2: C_EXECUTABLE_LINKER__ejeb2_Debug CMakeFiles/ejeb2.dir/bidimensional
   TARGET_FILE = ejeb2
   TARGET_PDB = ejeb2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejeb3
+
+
+#############################################
+# Order-only phony target for ejeb3
+
+build cmake_object_order_depends_target_ejeb3: phony || CMakeFiles/ejeb3.dir
+
+build CMakeFiles/ejeb3.dir/bidimensionales/exercise_3.c.o: C_COMPILER__ejeb3_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/bidimensionales/exercise_3.c || cmake_object_order_depends_target_ejeb3
+  DEP_FILE = CMakeFiles/ejeb3.dir/bidimensionales/exercise_3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejeb3.dir/bidimensionales
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejeb3
+
+
+#############################################
+# Link the executable ejeb3
+
+build ejeb3: C_EXECUTABLE_LINKER__ejeb3_Debug CMakeFiles/ejeb3.dir/bidimensionales/exercise_3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejeb3
+  TARGET_PDB = ejeb3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejeb4
+
+
+#############################################
+# Order-only phony target for ejeb4
+
+build cmake_object_order_depends_target_ejeb4: phony || CMakeFiles/ejeb4.dir
+
+build CMakeFiles/ejeb4.dir/bidimensionales/exercise_4.c.o: C_COMPILER__ejeb4_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/bidimensionales/exercise_4.c || cmake_object_order_depends_target_ejeb4
+  DEP_FILE = CMakeFiles/ejeb4.dir/bidimensionales/exercise_4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb4.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejeb4.dir/bidimensionales
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejeb4
+
+
+#############################################
+# Link the executable ejeb4
+
+build ejeb4: C_EXECUTABLE_LINKER__ejeb4_Debug CMakeFiles/ejeb4.dir/bidimensionales/exercise_4.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejeb4
+  TARGET_PDB = ejeb4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejeb5
+
+
+#############################################
+# Order-only phony target for ejeb5
+
+build cmake_object_order_depends_target_ejeb5: phony || CMakeFiles/ejeb5.dir
+
+build CMakeFiles/ejeb5.dir/bidimensionales/exercise_5.c.o: C_COMPILER__ejeb5_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/bidimensionales/exercise_5.c || cmake_object_order_depends_target_ejeb5
+  DEP_FILE = CMakeFiles/ejeb5.dir/bidimensionales/exercise_5.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb5.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejeb5.dir/bidimensionales
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejeb5
+
+
+#############################################
+# Link the executable ejeb5
+
+build ejeb5: C_EXECUTABLE_LINKER__ejeb5_Debug CMakeFiles/ejeb5.dir/bidimensionales/exercise_5.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejeb5
+  TARGET_PDB = ejeb5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejeb6
+
+
+#############################################
+# Order-only phony target for ejeb6
+
+build cmake_object_order_depends_target_ejeb6: phony || CMakeFiles/ejeb6.dir
+
+build CMakeFiles/ejeb6.dir/bidimensionales/exercise_6.c.o: C_COMPILER__ejeb6_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/bidimensionales/exercise_6.c || cmake_object_order_depends_target_ejeb6
+  DEP_FILE = CMakeFiles/ejeb6.dir/bidimensionales/exercise_6.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb6.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejeb6.dir/bidimensionales
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejeb6
+
+
+#############################################
+# Link the executable ejeb6
+
+build ejeb6: C_EXECUTABLE_LINKER__ejeb6_Debug CMakeFiles/ejeb6.dir/bidimensionales/exercise_6.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejeb6
+  TARGET_PDB = ejeb6.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -319,7 +443,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug
 
-build all: phony eje1 eje2 eje3 eje4 eje5 eje6 ejeb1 ejeb2
+build all: phony eje1 eje2 eje3 eje4 eje5 eje6 ejeb1 ejeb2 ejeb3 ejeb4 ejeb5 ejeb6
 
 # =============================================================================
 # Built-in targets
