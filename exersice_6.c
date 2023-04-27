@@ -41,6 +41,18 @@ int main(){
         scanf("%f", &vector_two[i]);
     }
 
+    // Print vectors
+    printf("El vector 1 de tamaño %d es: ",size_of_vectors);
+    for (int i=0; i<size_of_vectors; i++){
+        printf(" %.f ", vector_one[i]);
+    }
+
+    printf("El vector 2 de tamaño %d es: ",size_of_vectors);
+    for (int i=0; i<size_of_vectors; i++){
+        printf(" %.f ", vector_two[i]);
+    }
+
+
     // Sum of vectors
     printf("La suma de 2 vectores de tamaño %d es:  ", size_of_vectors);
     for (int i=0; i<size_of_vectors; i++){
