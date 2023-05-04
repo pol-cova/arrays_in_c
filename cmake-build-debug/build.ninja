@@ -471,6 +471,37 @@ build ejeba: C_EXECUTABLE_LINKER__ejeba_Debug CMakeFiles/ejeba.dir/bidimensional
   TARGET_FILE = ejeba
   TARGET_PDB = ejeba.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejeb8
+
+
+#############################################
+# Order-only phony target for ejeb8
+
+build cmake_object_order_depends_target_ejeb8: phony || CMakeFiles/ejeb8.dir
+
+build CMakeFiles/ejeb8.dir/bidimensionales/exercise_8.c.o: C_COMPILER__ejeb8_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/bidimensionales/exercise_8.c || cmake_object_order_depends_target_ejeb8
+  DEP_FILE = CMakeFiles/ejeb8.dir/bidimensionales/exercise_8.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb8.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejeb8.dir/bidimensionales
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejeb8
+
+
+#############################################
+# Link the executable ejeb8
+
+build ejeb8: C_EXECUTABLE_LINKER__ejeb8_Debug CMakeFiles/ejeb8.dir/bidimensionales/exercise_8.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeb8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejeb8
+  TARGET_PDB = ejeb8.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -505,7 +536,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug
 
-build all: phony eje1 eje2 eje3 eje4 eje5 eje6 ejeb1 ejeb2 ejeb3 ejeb4 ejeb5 ejeb6 ejeb7 ejeba
+build all: phony eje1 eje2 eje3 eje4 eje5 eje6 ejeb1 ejeb2 ejeb3 ejeb4 ejeb5 ejeb6 ejeb7 ejeba ejeb8
 
 # =============================================================================
 # Built-in targets
