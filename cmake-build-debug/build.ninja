@@ -502,6 +502,192 @@ build ejeb8: C_EXECUTABLE_LINKER__ejeb8_Debug CMakeFiles/ejeb8.dir/bidimensional
   TARGET_FILE = ejeb8
   TARGET_PDB = ejeb8.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejec1
+
+
+#############################################
+# Order-only phony target for ejec1
+
+build cmake_object_order_depends_target_ejec1: phony || CMakeFiles/ejec1.dir
+
+build CMakeFiles/ejec1.dir/cadenas/exercise_1.c.o: C_COMPILER__ejec1_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/cadenas/exercise_1.c || cmake_object_order_depends_target_ejec1
+  DEP_FILE = CMakeFiles/ejec1.dir/cadenas/exercise_1.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec1.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejec1.dir/cadenas
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejec1
+
+
+#############################################
+# Link the executable ejec1
+
+build ejec1: C_EXECUTABLE_LINKER__ejec1_Debug CMakeFiles/ejec1.dir/cadenas/exercise_1.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejec1
+  TARGET_PDB = ejec1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejec2
+
+
+#############################################
+# Order-only phony target for ejec2
+
+build cmake_object_order_depends_target_ejec2: phony || CMakeFiles/ejec2.dir
+
+build CMakeFiles/ejec2.dir/cadenas/exersice_2.c.o: C_COMPILER__ejec2_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/cadenas/exersice_2.c || cmake_object_order_depends_target_ejec2
+  DEP_FILE = CMakeFiles/ejec2.dir/cadenas/exersice_2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejec2.dir/cadenas
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejec2
+
+
+#############################################
+# Link the executable ejec2
+
+build ejec2: C_EXECUTABLE_LINKER__ejec2_Debug CMakeFiles/ejec2.dir/cadenas/exersice_2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejec2
+  TARGET_PDB = ejec2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejec3
+
+
+#############################################
+# Order-only phony target for ejec3
+
+build cmake_object_order_depends_target_ejec3: phony || CMakeFiles/ejec3.dir
+
+build CMakeFiles/ejec3.dir/cadenas/exercise_3.c.o: C_COMPILER__ejec3_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/cadenas/exercise_3.c || cmake_object_order_depends_target_ejec3
+  DEP_FILE = CMakeFiles/ejec3.dir/cadenas/exercise_3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejec3.dir/cadenas
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejec3
+
+
+#############################################
+# Link the executable ejec3
+
+build ejec3: C_EXECUTABLE_LINKER__ejec3_Debug CMakeFiles/ejec3.dir/cadenas/exercise_3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejec3
+  TARGET_PDB = ejec3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejec4
+
+
+#############################################
+# Order-only phony target for ejec4
+
+build cmake_object_order_depends_target_ejec4: phony || CMakeFiles/ejec4.dir
+
+build CMakeFiles/ejec4.dir/cadenas/exercise_4.c.o: C_COMPILER__ejec4_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/cadenas/exercise_4.c || cmake_object_order_depends_target_ejec4
+  DEP_FILE = CMakeFiles/ejec4.dir/cadenas/exercise_4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec4.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejec4.dir/cadenas
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejec4
+
+
+#############################################
+# Link the executable ejec4
+
+build ejec4: C_EXECUTABLE_LINKER__ejec4_Debug CMakeFiles/ejec4.dir/cadenas/exercise_4.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejec4
+  TARGET_PDB = ejec4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejec4m
+
+
+#############################################
+# Order-only phony target for ejec4m
+
+build cmake_object_order_depends_target_ejec4m: phony || CMakeFiles/ejec4m.dir
+
+build CMakeFiles/ejec4m.dir/cadenas/exercise_4_mf.c.o: C_COMPILER__ejec4m_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/cadenas/exercise_4_mf.c || cmake_object_order_depends_target_ejec4m
+  DEP_FILE = CMakeFiles/ejec4m.dir/cadenas/exercise_4_mf.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec4m.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejec4m.dir/cadenas
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejec4m
+
+
+#############################################
+# Link the executable ejec4m
+
+build ejec4m: C_EXECUTABLE_LINKER__ejec4m_Debug CMakeFiles/ejec4m.dir/cadenas/exercise_4_mf.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejec4m.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejec4m
+  TARGET_PDB = ejec4m.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target eau
+
+
+#############################################
+# Order-only phony target for eau
+
+build cmake_object_order_depends_target_eau: phony || CMakeFiles/eau.dir
+
+build CMakeFiles/eau.dir/exercise_aula_invertida.c.o: C_COMPILER__eau_Debug /Users/paulcontreras/Documents/GitHub/arrays_in_c/exercise_aula_invertida.c || cmake_object_order_depends_target_eau
+  DEP_FILE = CMakeFiles/eau.dir/exercise_aula_invertida.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eau.dir
+  OBJECT_FILE_DIR = CMakeFiles/eau.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eau
+
+
+#############################################
+# Link the executable eau
+
+build eau: C_EXECUTABLE_LINKER__eau_Debug CMakeFiles/eau.dir/exercise_aula_invertida.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eau.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eau
+  TARGET_PDB = eau.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -536,7 +722,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/arrays_in_c/cmake-build-debug
 
-build all: phony eje1 eje2 eje3 eje4 eje5 eje6 ejeb1 ejeb2 ejeb3 ejeb4 ejeb5 ejeb6 ejeb7 ejeba ejeb8
+build all: phony eje1 eje2 eje3 eje4 eje5 eje6 ejeb1 ejeb2 ejeb3 ejeb4 ejeb5 ejeb6 ejeb7 ejeba ejeb8 ejec1 ejec2 ejec3 ejec4 ejec4m eau
 
 # =============================================================================
 # Built-in targets
