@@ -26,9 +26,10 @@ int main(){
 
     for (int i = 0; i<num_of_players; i++){
         printf("Ingrese el nombre del jugador: ");
-        //scanf("%s", players[i]);
         fflush(stdin);
-        gets( players[i]);
+
+        scanf("%[^\n]s", players[i]);
+        //gets( players[i]);
     }
 
     // List of players

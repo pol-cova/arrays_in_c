@@ -1,0 +1,4 @@
+/Users/paulcontreras/Documents/opencalc/cmake-build-debug/CMakeFiles/opencalc.dir
+/Users/paulcontreras/Documents/opencalc/cmake-build-debug/CMakeFiles/example.dir
+/Users/paulcontreras/Documents/opencalc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/paulcontreras/Documents/opencalc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
